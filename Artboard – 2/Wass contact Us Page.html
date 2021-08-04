@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact us</title>
+</head>
+<style type="text/css">
+/*----navigation----*/
+
+.logo img{
+	margin-top: 30px; 
+	margin-left: 160px;
+	margin-bottom: 30px;
+	background: transparent;
+}
+
+.sidenav{
+	height: 100%;
+	width: 0px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+	overflow-x: hidden; 
+	transition: 0.5s;
+	padding-top: 60px;
+	margin-left: 0px;
+}
+
+.sidenav a{
+	padding: 8px 8px 8px 32px;
+	display: block;
+	transition: 0.3s;
+	text-decoration: none;
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-medium);
+	font-size: var(--unnamed-font-size-20);
+	line-height: var(--unnamed-line-spacing-32);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-ffffff);
+}
+
+.sidenav a:hover{
+	color: #0044ff;
+	text-decoration: underline;
+}
+
+.icon img{
+	float: right;
+	margin-top: 35px;
+	margin-right: 160px;
+	font-size: 36px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.sidenav .close-icon{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 50px;
+	margin: 4px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.sidenav .close-icon:hover{
+	text-decoration: none !important;
+	color: #FFFFFF;
+}
+
+
+	#img1{
+		margin-top: 90px;
+		margin-left: 112px;
+		width: 225px;
+		height: 48px;
+	}
+	#toplogo{
+		margin-top: 120px;
+		margin-left: 0px;
+		width: 1440px;
+		height: 320px;
+	}
+	#group9 {
+		margin-top: 0px;
+		margin-left: 1305px;
+		width: 24px;
+		height: 24px;
+	}
+	#h1{
+		margin-top: 30px;
+		margin-left: 575px;
+		width: 300px;
+		height: 63px;
+		font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-49)/var(--unnamed-line-spacing-56) var(--unnamed-font-family-rajdhani);
+		letter-spacing: var(--unnamed-character-spacing-0);
+		color: var(--unnamed-color-03254c);
+		font: normal normal 600 49px/56px Rajdhani;
+		text-align: left;
+		color: #03254C;
+		opacity: 1;
+	}
+	#h3{
+		margin-top: 0px;
+		margin-left: 580px;
+		width: 280px;
+		height: 32px;
+	}
+	
+	#fname{
+		margin-top: 0px;
+		margin-left: 417px;
+		width: 287px;
+		height: 58px;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 0.5px solid #0044FF;
+		opacity:10;
+	}
+	#lname{
+		margin-top:-60px;
+		margin-left:730px;
+		width: 287px;
+		height: 58px;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 0.5px solid #0044FF;
+		opacity:1;
+		display:flex;
+	}
+	#emailid{
+		margin-top: 20px;
+		margin-left: 417px;
+		width: 287px;
+		height: 58px;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 0.5px solid #0044FF;
+		opacity: 1;
+	}
+	#phoneno{
+		margin-top:-60px;
+		margin-left: 730px;
+		width: 287px;
+		height: 58px;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 0.5px solid #0044FF;
+		opacity: 1;
+		display:flex;
+	}
+	#query{
+		margin-top: 20px;
+		margin-left: 417px;
+		width: 606px;
+		height: 122px;
+		background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 0.5px solid #0044FF;
+		opacity: 1;
+	}
+	#submit{
+		margin-top: 20px;
+		margin-left: 417px;
+		width: 135px;
+		height: 53px;
+		background: #0044FF 0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
+</style>
+<body>
+
+	<!----Navbar Section---->
+
+	
+	<div id="sidenav" class="sidenav">
+      <a href="javascript:void(0)" class="close-icon" onclick="closenav()">&times;</a>
+      <a href="#">Menu 1</a>
+      <a href="#">Menu 2</a>
+      <a href="#">Menu 3</a>
+      <a href="#">Menu 4</a>
+      <a href="#">Menu 5</a>
+  </div>
+  <span class="icon" id="menu-icon" onclick="opennav()"><img src="Group 9.svg"></span>
+
+  <div class="container">
+      <div class="logo">
+          <img src="Image 1.png">
+      </div>
+  </div>
+
+<img src="Rectangle 338@2x.png" id="toplogo">
+<h1 id="h1">Contact Us</h1>
+<h3 id="h3">We'd love to hear from you!</h3>
+<div class="form"><form action="/action_page.php">
+	
+	<input type="text" id="fname" name="fname" value="First Name">
+	<input type="text" id="lname" name="lname" value="Last Name">
+	<input type="text" id="emailid" name="emailid" value="Email">
+	<input type="text" id="phoneno" name="phoneno" value="Phone no">
+	<input type="text" id="query" name="query" value="Type your message here...">
+	<button type="button" id="submit" name="submit">Submit →</button>
+</form></div>
+</body>
+</html>
