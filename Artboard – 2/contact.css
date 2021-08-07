@@ -277,10 +277,108 @@
 	background: #ffffff;
 	color: #0044ff;
 	border: 1px solid #0044ff;
+	cursor: pointer;
 }
 
 .form span{
 	margin-left: 18px;
+}
+
+/*----address----*/
+
+.box{
+	border: 1px solid #0041F5;
+	border-width: 100%;
+	margin-top: 100px;
+	height: 280px;
+	display: flex;
+}
+
+.box .sect1{
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.box .sect1 .far{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.box .sect1 .fa-envelope:hover{
+	color: #0041F5;
+	cursor: pointer;
+}
+
+.box .sect1 p{
+	margin-left: 50px;
+	margin-top: 8px;
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+}
+
+.box .sect2{
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.box .sect2 .fas{
+	margin-top: 20px;
+}
+
+.box .sect2 .fa-map-marker-alt:hover{
+	color: #0041F5;
+	cursor: pointer;
+}
+
+.box .sect2 pre{
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+	margin-top: 18px;
+	margin-left: -230px;
+}
+
+.box .sect3{
+	margin-left: 450px;
+	margin-top: 50px;
+}
+
+.box .sect3 .far{
+	margin-top: 20px;
+	margin-left: -100px;
+}
+
+.box .sect3 .fa-comment:hover{
+	color: #0041F5;
+	cursor: pointer;
+}
+
+.box .sect3 .txt1{
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+	margin-top: 20px;
+	margin-left: -155px;
+}
+
+.box .sect3 .txt2{
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+	margin-left: -255px;
 }
 
 /*----footer----*/
@@ -290,7 +388,7 @@
 	text-align: left;
 	padding: 40px 0px;
 	background-color: #00000029;
-	margin-top: 500px;
+	margin-top: 0px;
 	position: relative;
 	height: 270px;
 	display: flex;
