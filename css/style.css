@@ -89,7 +89,7 @@
 
 .solution-section {
   position: absolute;
-  margin-top: 
+  margin-top: 10px;
   left: 88px;
   width: 634px;
   height: 1071px;
@@ -133,12 +133,12 @@
   background: transparent url("img/Path 98.png") 0% 0% no-repeat padding-box;
 }
 
-.solution-card-heading {
+.solution-card-heading
   margin-top: 24px;
   margin-left: 24px;
   width: 100%;
   height: 32px;
-  font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-25) /
+  font: var(--unnamed-font-style-normal) normal italic var(--unnamed-font-size-25);
     var(--unnamed-line-spacing-32) var(--unnamed-font-family-rajdhani);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-03254c);
